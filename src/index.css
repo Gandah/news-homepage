@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base{
+    .mobile-menu {
+        @apply flex flex-col justify-center items-start fixed top-0 right-0 min-h-screen w-[68vw] p-4 z-50 bg-offWhite translate-x-full transition-all delay-[50ms] duration-500 ease-in-out;
+       
+      }
+      
+      .mobile-menu.open { 
+        /* Show the menu when nav is true */
+        @apply translate-x-0;
+        
+      }
+      
+}
