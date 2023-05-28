@@ -12,15 +12,27 @@
     margin: 0;
 }
 
-body{
+body {
     background-color: hsl(36, 100%, 99%);
+    padding-left: 6rem;
+    padding-right: 6rem;
 }
 
-@media only screen and (min-width:768px){
-    body{
-        padding-inline: 6rem;
+@media only screen and (max-width: 767px){
+
+    body {
+        padding-left: 0;
+        padding-right: 0;
     }
 }
+
+@media only screen and (min-width: 768px) and (max-width: 1495px) {
+    body {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
 
 p{
     font-size: 15px;
@@ -51,5 +63,4 @@ p{
 .backdrop.show{
     opacity: 1;
 }
-
 

@@ -38,6 +38,10 @@ export default {
           '100%': { transform: 'scale(1, 1)' },
         }
     },
+    screens: {
+      '2xl': '1310px',
+      '0.5xl': '1198px',
+    }
   },
   plugins: [],
 }
