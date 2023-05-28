@@ -18,7 +18,14 @@ body {
     padding-right: 6rem;
 }
 
-@media only screen and (max-width: 767px){
+@media only screen and (min-width: 1373px) and (max-width: 1496px) {
+    body {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}
+
+@media only screen and (max-width: 1372px){
 
     body {
         padding-left: 0;
@@ -26,12 +33,7 @@ body {
     }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1495px) {
-    body {
-        padding-left: 0;
-        padding-right: 0;
-    }
-}
+
 
 
 p{
