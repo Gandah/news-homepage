@@ -55,7 +55,6 @@ const Main = () => {
             </p>
           </div>
           <div
-            role="button"
             tabIndex={0}
             className={`bg-softRed hover:bg-darkBlue px-4 py-3 md:py-2 h-auto w-[50%] md:w-[60%] 0.5xl:w-[40%] uppercase text-center md:grid place-items-center ${
               animate ? "animate-[wiggle_2s_ease-in-out_2]" : ""} `}
